@@ -1,11 +1,3 @@
----
-title: Screenshots with Go
-author: David Hintelmann
-date: 2023-08-20
-description: "Blog post for taking screenshots of your desktop with go programming language. Developed on Windows 11 but works on my Linux Ubuntu as well."
-tags: ["go","screenshots","programming","windows11","linux","guide"]
----
-
 ## Introduction
 
 I was looking for different ways to automate capturing a screenshot of my desktop.
@@ -238,7 +230,8 @@ In order to run this code you will have two options. It is also assumed you have
    - After you have initialized and tidied up the `go.mod` file you can run:
 	> go run main.go
    - This will execute the program and take your screenshot!
-2. Another method would be to copy `main.go` from my [GitHub](https://github.com/davidhintelmann/davidhintelmann.github.io/tree/main/content/posts/third)
+2. Another method would be to clone my [repo](https://github.com/davidhintelmann/go-screenshot)
+	> git clone https://github.com/davidhintelmann/go-screenshot.git
    - Navigate to the directory, in terminal, where your `main.go` file is
    - Run the command:
 	> go mod tidy
